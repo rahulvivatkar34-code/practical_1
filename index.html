@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Color Showcase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+      color: white;
+      background-color: #333;
+    }
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 10px;
+      padding: 20px;
+    }
+    .color-box {
+      height: 100px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>HTML Color Showcase</h1>
+  <div class="color-grid">
+    <div class="color-box" style="background-color: red;">Red</div>
+    <div class="color-box" style="background-color: green;">Green</div>
+    <div class="color-box" style="background-color: blue;">Blue</div>
+    <div class="color-box" style="background-color: yellow;">Yellow</div>
+    <div class="color-box" style="background-color: orange;">Orange</div>
+    <div class="color-box" style="background-color: purple;">Purple</div>
+    <div class="color-box" style="background-color: pink;">Pink</div>
+    <div class="color-box" style="background-color: cyan;">Cyan</div>
+    <div class="color-box" style="background-color: magenta;">Magenta</div>
+    <div class="color-box" style="background-color: #1abc9c;">#1abc9c</div>
+    <div class="color-box" style="background-color: rgb(255, 99, 71);">RGB Tomato</div>
+    <div class="color-box" style="background-color: hsl(200, 100%, 50%);">HSL Sky</div>
+    <div class="color-box" style="background: linear-gradient(to right, #ff7e5f, #feb47b);">Gradient</div>
+  </div>
+</body>
+</html>
